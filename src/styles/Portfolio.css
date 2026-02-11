@@ -1,0 +1,66 @@
+.portfolio-container {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: radial-gradient(circle at top, #1a1a2e, #0f0f1a);
+  color: white;
+  text-align: center;
+}
+
+.portfolio-header h1 {
+  font-size: 42px;
+  background: linear-gradient(90deg, #00f5ff, #8a2be2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
+}
+
+.portfolio-header p {
+  color: #bbb;
+  margin-bottom: 50px;
+}
+
+.profile-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  background: #1a1a2e;
+  border: 1px solid #00f5ff;
+  border-radius: 15px;
+  padding: 40px;
+  width: 300px;
+  transition: 0.3s ease;
+  box-shadow: 0 0 20px rgba(0, 245, 255, 0.2);
+}
+
+.profile-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 0 35px rgba(0, 245, 255, 0.4);
+}
+
+.profile-card h2 {
+  margin-bottom: 15px;
+}
+
+.profile-card p {
+  color: #ccc;
+  margin-bottom: 25px;
+}
+
+.portfolio-btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: linear-gradient(90deg, #00f5ff, #8a2be2);
+  color: black;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.portfolio-btn:hover {
+  transform: scale(1.05);
+}

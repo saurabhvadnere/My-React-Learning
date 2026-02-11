@@ -1,0 +1,96 @@
+/* Full Page Background */
+.about-container {
+  min-height: 100vh;
+  padding: 80px 20px;
+  background: radial-gradient(circle at top, #1a1a2e, #0f0f1a);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Header Section */
+.about-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.about-header h1 {
+  font-size: 42px;
+  background: linear-gradient(90deg, #00f5ff, #8a2be2);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #b0b0b0;
+}
+
+/* Main Card */
+.about-card {
+  max-width: 900px;
+  background: #1a1a2e;
+  padding: 40px;
+  border-radius: 16px;
+  border: 1px solid #00f5ff;
+  box-shadow: 0 0 25px rgba(0, 245, 255, 0.2);
+  line-height: 1.8;
+  font-size: 17px;
+  transition: 0.3s ease;
+}
+
+/* Hover Glow Effect */
+.about-card:hover {
+  box-shadow: 0 0 35px rgba(0, 245, 255, 0.4);
+  transform: translateY(-5px);
+}
+
+/* Highlighted Keywords */
+.about-card span {
+  color: #00f5ff;
+  font-weight: 600;
+}
+
+/* Paragraph spacing */
+.about-card p {
+  margin-bottom: 20px;
+  color: #dcdcdc;
+}
+
+/* List Styling */
+.about-card ul {
+  margin: 15px 0 25px 20px;
+}
+
+.about-card li {
+  margin-bottom: 10px;
+  color: #cfcfcf;
+}
+
+/* Subtle glowing bullet style */
+.about-card li::marker {
+  color: #8a2be2;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-card {
+    padding: 25px;
+  }
+
+  .about-header h1 {
+    font-size: 32px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+}

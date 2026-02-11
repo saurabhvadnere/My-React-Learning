@@ -1,0 +1,23 @@
+.hero {
+  min-height: 90vh;
+  background: radial-gradient(circle at top, #1a1a2e, #0f0f1a);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  background: linear-gradient(90deg, #00f5ff, #8a2be2);
+  
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+
+
